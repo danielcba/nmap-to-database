@@ -129,22 +129,22 @@ Si deseas que el script se ejecute automáticamente cada cierto tiempo, puedes c
 2. Añade la siguiente línea al final del archivo para ejecutar el script cada 2 minutos:
 
    ```bash
-   */2 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-base.py
+   */2 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-database.py
    ```
 
    Esta línea programa la ejecución del script `nmap-to-database.py` cada 2 minutos. Si deseas cambiar la frecuencia, ajusta el primer campo (\*/2) según tus necesidades. Aquí hay algunos ejemplos:
 
    - Cada 5 minutos:
      ```bash
-     */5 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-base.py
+     */5 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-database.py
      ```
    - Cada hora:
      ```bash
-     0 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-base.py
+     0 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-database.py
      ```
    - Todos los días a las 3 AM:
      ```bash
-     0 3 * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-base.py
+     0 3 * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-database.py
      ```
 
 ### Guardar y Salir
@@ -160,6 +160,6 @@ Si deseas que el script se ejecute automáticamente cada cierto tiempo, puedes c
 
 ### Nota de Seguridad
 
-Asegúrate de que el script `nmap-to-base.py` tenga permisos de ejecución y que el usuario que configura el cron job tenga los permisos necesarios para ejecutar el script y acceder a la base de datos.
+Asegúrate de que el script `nmap-to-database.py` tenga permisos de ejecución y que el usuario que configura el cron job tenga los permisos necesarios para ejecutar el script y acceder a la base de datos.
 
 ---
