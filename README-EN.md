@@ -36,6 +36,9 @@ This script automates the process of scanning a network to identify connected de
 - **Credential Management**: It is important not to store credentials directly in the code. It is recommended to use safe environment variables or configuration files.
 - **Permissions and Access**: Ensure that only authorized personnel can run the script and access the stored results.
 
+### Result
+![image](https://github.com/danielcba/nmap-to-database/assets/157246808/bd9d888d-35d8-4111-97c5-3aed501ae9ff)
+
 ---
 
 This script is a powerful and versatile tool for network management and security, providing critical information in an automated and efficient manner.
