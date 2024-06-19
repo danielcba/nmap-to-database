@@ -37,8 +37,8 @@ f.close()
 # Establish a connection to the MySQL database
 conexion1 = mysql.connector.connect(
     host="localhost",
-    user="root",
-    passwd="Thanatos+2",  # **WARNING:** Consider not storing credentials directly in code
+    user="username",
+    passwd="password",  # **WARNING:** Consider not storing credentials directly in code
     database="basenmap",
     allow_local_infile=True,  # Allow loading data from local file (use with caution)
 )
