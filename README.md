@@ -132,7 +132,7 @@ Si deseas que el script se ejecute automáticamente cada cierto tiempo, puedes c
    */2 * * * * /usr/bin/python3 /home/username/base-nmap/nmap-to-base.py
    ```
 
-   Esta línea programa la ejecución del script `nmap-to-base.py` cada 2 minutos. Si deseas cambiar la frecuencia, ajusta el primer campo (\*/2) según tus necesidades. Aquí hay algunos ejemplos:
+   Esta línea programa la ejecución del script `nmap-to-database.py` cada 2 minutos. Si deseas cambiar la frecuencia, ajusta el primer campo (\*/2) según tus necesidades. Aquí hay algunos ejemplos:
 
    - Cada 5 minutos:
      ```bash
