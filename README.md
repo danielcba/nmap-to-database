@@ -162,4 +162,9 @@ Si deseas que el script se ejecute automáticamente cada cierto tiempo, puedes c
 
 Asegúrate de que el script `nmap-to-database.py` tenga permisos de ejecución y que el usuario que configura el cron job tenga los permisos necesarios para ejecutar el script y acceder a la base de datos.
 
+### Resultado
+
+![image](https://github.com/danielcba/nmap-to-database/assets/157246808/44615c4f-6345-41e1-9d04-6639c15448b6)
+
+
 ---
